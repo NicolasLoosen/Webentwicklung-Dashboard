@@ -1,0 +1,16 @@
+[
+    {
+        "name": "default",
+        "type": "postgres",
+        "host": "backend-db",
+        "port": 5432,
+        "username": "postgres",
+        "password": "admin",
+        "database": "postgres",
+        "schema": "public",
+        "synchronize": true,
+        "entities": [
+            "./src/entity/*.ts"
+        ]
+    }
+]
